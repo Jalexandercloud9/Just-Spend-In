@@ -1269,7 +1269,7 @@ export default function App() {
           <div style={{ padding: "0 20px 28px" }}>
             <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
               <div style={{ width: 32, height: 32, background: COLORS.coral, borderRadius: 9 }} />
-              <span style={{ fontSize: 16, fontWeight: 800, color: COLORS.dark, fontFamily: "'DM Serif Display', serif" }}>Just-Spend-In</span>
+              <span style={{ fontSize: 16, fontWeight: 800, color: COLORS.dark, fontFamily: "'DM Serif Display', serif" }}>Just-Spend</span>
             </div>
           </div>
           <nav style={{ flex: 1, padding: "0 12px" }}>
@@ -1311,7 +1311,7 @@ export default function App() {
         <div style={{ background: COLORS.white, borderBottom: `1px solid ${COLORS.lightGray}`, padding: "12px 18px", display: "flex", justifyContent: "space-between", alignItems: "center", position: "sticky", top: 0, zIndex: 50 }}>
           <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
             <div style={{ width: 26, height: 26, background: COLORS.coral, borderRadius: 7 }} />
-            <span style={{ fontSize: 15, fontWeight: 800, color: COLORS.dark, fontFamily: "'DM Serif Display', serif" }}>Just-Spend-In</span>
+            <span style={{ fontSize: 15, fontWeight: 800, color: COLORS.dark, fontFamily: "'DM Serif Display', serif" }}>Just-Spend</span>
           </div>
           <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
             <button onClick={() => setShowUpload(true)} style={{ background: COLORS.bg, border: `1px solid ${COLORS.lightGray}`, borderRadius: 8, padding: "7px", display: "flex", cursor: "pointer" }}><IconUpload size={17} color={COLORS.dark} /></button>
